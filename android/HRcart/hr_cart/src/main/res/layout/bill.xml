@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cart_hr"
+    android:alpha="1.0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="#32C"
+        android:textSize="25dp"
+        android:id="@+id/txtInput"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR TOTAL BILL IS"
+        android:layout_marginTop="20dp"
+        android:textColor="#800000"
+        android:layout_marginLeft="12dp"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/units01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/price01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/item01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/listviewitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay1"
+        android:text="Pay"
+        android:textSize="16dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/cart_hr"
+    android:alpha="1.0"
+    tools:context=".MakePayment">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="22dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:background="#FFA500"
+        android:alpha="0.6"
+        android:text="Choose  Your Payment Option"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="22dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+
+        android:text="Choose  Your Payment Option"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="22dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:background="#FFA500"
+        android:id="@+id/bill_code"
+        android:alpha="0.6"
+
+        
+        />
+
+    <TextView
+        android:id="@+id/rptno"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="280dp"
+        android:alpha="1.0"
+        android:hint="Reciept No."
+
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <Button
+        android:id="@+id/bhim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="115dp"
+        android:background="@drawable/bhim" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/paypal"
+        android:background="@drawable/paypal"
+        />
+
+    <Button
+        android:id="@+id/paytm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/paytm"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/tez"
+        android:background="@drawable/tez"
+
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/next"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/next"
+
+        />
+
+</RelativeLayout>

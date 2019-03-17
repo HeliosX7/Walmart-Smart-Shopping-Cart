@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cart_hr"
+    android:alpha="1.0"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etqr"
+        android:textColorHint="#DC143C"
+        android:textColor="#A52A2A"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Enter Your Billing Code" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:fadingEdge="vertical"
+        android:alpha="0.9"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+
+        android:background="@drawable/button_img"
+        android:text="Generate QR code" />
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/qrcodeimg"
+        android:alpha="0.7"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="107dp"
+        android:textSize="25dp"
+        android:text="Your QR Code"
+        />
+</LinearLayout>
