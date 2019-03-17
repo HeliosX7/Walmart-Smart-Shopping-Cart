@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cart_hr"
+    >
+
+    <EditText
+        android:id="@+id/etqr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter String"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#003087"
+        android:layout_marginLeft="85dp"
+        android:text="Generate QR"
+
+
+        android:background="@drawable/paybtn"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.7"
+        android:background="@drawable/walmart" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:background="@drawable/exit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:text = "Exit"
+        android:textColor="#FFD700"
+        android:onClick="clickexit"
+        />
+
+
+</LinearLayout>

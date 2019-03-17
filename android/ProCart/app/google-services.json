@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "950093605663",
+    "firebase_url": "https://walcart-07.firebaseio.com",
+    "project_id": "walcart-07",
+    "storage_bucket": "walcart-07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950093605663:android:3a954385ffee7ae1",
+        "android_client_info": {
+          "package_name": "com.horizon.hr_cart.hrcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950093605663-kspgntbphtdikgpofb8f1lqa9r8lsdfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3T3S2e91xdJxUyslK-tWdaa_d9WSSiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950093605663:android:f8367144934ad702",
+        "android_client_info": {
+          "package_name": "com.horizon.hr_cart.hrcart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950093605663-qgg0c8opq1vbva1dk4ee8v57qsmvd6c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.horizon.hr_cart.hrcart.app",
+            "certificate_hash": "8ffecd0a966bbcab4952f6162996522f9355c0dd"
+          }
+        },
+        {
+          "client_id": "950093605663-kspgntbphtdikgpofb8f1lqa9r8lsdfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3T3S2e91xdJxUyslK-tWdaa_d9WSSiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950093605663-kspgntbphtdikgpofb8f1lqa9r8lsdfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950093605663:android:1a6009ba08b91301",
+        "android_client_info": {
+          "package_name": "com.horizon.procart.procart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950093605663-aev0tiuk6jmekieqpk4o4vq7dmnmjn3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.horizon.procart.procart",
+            "certificate_hash": "8ffecd0a966bbcab4952f6162996522f9355c0dd"
+          }
+        },
+        {
+          "client_id": "950093605663-kspgntbphtdikgpofb8f1lqa9r8lsdfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3T3S2e91xdJxUyslK-tWdaa_d9WSSiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950093605663-kspgntbphtdikgpofb8f1lqa9r8lsdfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
