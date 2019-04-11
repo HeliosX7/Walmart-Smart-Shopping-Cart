@@ -2,16 +2,7 @@ from gpiozero import LED
 from time import sleep
 from gpiozero import MotionSensor
 from signal import pause
-led=LED(18)
-pir=MotionSensor(23)
-led.on()
-print("Waiting for pir to  settle")
-pir.wait_for_no_motion()
-print("ready")
-led.off()
 import serial
-port="/dev/ttyACM0"
-s1=serial.Serial(port,9600)
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 import time
@@ -21,6 +12,18 @@ import zbar
 import Image
 import pandas as  pd
 import numpy as np
+
+led=LED(18)
+pir=MotionSensor(23)
+led.on()
+print("Waiting for pir to  settle")
+pir.wait_for_no_motion()
+print("ready")
+led.off()
+
+port="/dev/ttyACM0"
+s1=serial.Serial(port,9600)
+
 data=pd.read_csv('itemdata.csv')
 print(data)
 # Debug mode
