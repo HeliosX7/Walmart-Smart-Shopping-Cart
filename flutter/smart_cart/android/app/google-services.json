@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "598941482866",
+    "firebase_url": "https://walmart-smart-cart.firebaseio.com",
+    "project_id": "walmart-smart-cart",
+    "storage_bucket": "walmart-smart-cart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598941482866:android:09e333360e17d7cdbde7eb",
+        "android_client_info": {
+          "package_name": "com.example.sampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598941482866-mtovvspc358ietb92d7p14em771018h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sampleapp",
+            "certificate_hash": "0aceccbb9060edbbe7fbdcc3318b0ee0307c156a"
+          }
+        },
+        {
+          "client_id": "598941482866-f36uovof5hp5li3v4o7ajds3rmgaoamh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt4_pOzmJZFGwdhFTkQri60uXS6L48VeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598941482866-f36uovof5hp5li3v4o7ajds3rmgaoamh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598941482866:android:212135f935690ac3bde7eb",
+        "android_client_info": {
+          "package_name": "com.example.smart_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598941482866-fcnpp3ga0fbat2139u05u1o2pfpfi3h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_cart",
+            "certificate_hash": "0aceccbb9060edbbe7fbdcc3318b0ee0307c156a"
+          }
+        },
+        {
+          "client_id": "598941482866-f36uovof5hp5li3v4o7ajds3rmgaoamh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt4_pOzmJZFGwdhFTkQri60uXS6L48VeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598941482866-f36uovof5hp5li3v4o7ajds3rmgaoamh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
