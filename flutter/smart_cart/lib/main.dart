@@ -9,6 +9,9 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: SplashScreen(),
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+      ),
     );
   }
 

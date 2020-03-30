@@ -11,7 +11,7 @@ class SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 5), () {
-      Navigator.push(
+      Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => CartPage() ));
     });
   }
@@ -24,7 +24,6 @@ class SplashScreenState extends State<SplashScreen> {
         children: <Widget>[
           Container(
             decoration: BoxDecoration(
-              color: Colors.blue,
             ),
           ),
           Column(
@@ -36,11 +35,11 @@ class SplashScreenState extends State<SplashScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundColor: Colors.yellow,
+                      backgroundColor: Colors.blue[900],
                       radius: 50.0,
                       child: Icon(
                         Icons.shopping_cart,
-                        color: Colors.black,
+                        color: Colors.yellow,
                         size: 60.0,
                       ),
                     ),
@@ -50,9 +49,8 @@ class SplashScreenState extends State<SplashScreen> {
                     Text(
                       "Smart Cart",
                       style: TextStyle(
-                        fontFamily: 'Raleway',
                         fontSize: 36.0,
-                        color: Colors.white,
+                        color: Colors.blue[900],
                       ),
                     ),
                   ],
@@ -65,19 +63,8 @@ class SplashScreenState extends State<SplashScreen> {
                   children: <Widget>[
                     CircularProgressIndicator(
                       //value: 0.9,
-                      backgroundColor : Colors.yellow,
+                      backgroundColor : Colors.blue[900],
                     ),
-                   /* Padding(
-                      padding: EdgeInsets.only(top: 10.0),
-                    ),
-                    Text(
-                      "Loading...",
-                      style: TextStyle(
-                        fontFamily: 'Montserrat',
-                        color: Colors.white,
-                      ),
-                    ),
-                    */
                   ],
                 ),
               ),
@@ -85,6 +72,7 @@ class SplashScreenState extends State<SplashScreen> {
           )
         ],
       ),
+      /*
        floatingActionButton: FloatingActionButton(
         onPressed: (){
           Navigator.push(
@@ -92,11 +80,12 @@ class SplashScreenState extends State<SplashScreen> {
         },
         child: Icon(
           Icons.navigate_next,
-          color: Colors.yellow,
+          color: Colors.blue[900],
         ),
         elevation: 0.0,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.transparent,
       ),
+      */
     );
   }
 }
