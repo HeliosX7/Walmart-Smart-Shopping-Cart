@@ -1,4 +1,4 @@
-# smart_cart
+# Smart Cart
 
 A new Flutter project.
 
